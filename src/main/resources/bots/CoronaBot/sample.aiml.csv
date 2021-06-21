@@ -1,0 +1,27 @@
+0,HELLO,*,*,<random>#Newline            <li> Hello! </li>#Newline            <li> Hi! Nice to meet you! </li>#Newline			 <li>Hello User </li>#Newline			 <li>Hi My Friend</li>#Newline         </random>,sample.aiml
+0,I AM *,*,*,Hello <set name="username"> <star/>! </set>,sample.aiml
+0,HELLO *,*,*,<srai>HELLO</srai>,sample.aiml
+0,_ HELLO,*,*,<srai>HELLO</srai>,sample.aiml
+0,_ HELLO *,*,*,<srai>HELLO</srai>,sample.aiml
+0,TELL ME ABOUT *,*,*,Here is some info about <star/>#Newline	<button>#Newline		<text>Click here </text>#Newline		<url>en#Commawikipedia.org/wiki<star/></url>#Newline	</button>,sample.aiml
+0,I LIKE *,*,*,I too like <star/>.,sample.aiml
+0,* IS A *,*,*,How <star index="1"/> can not be a <star index="2"/>?,sample.aiml
+0,GOOD NIGHT,*,*,Hi <get name="username"/> Thanks for the conversation!,sample.aiml
+0,BYE,*,*,Good Bye!,sample.aiml
+0,BYE *,*,*,<srai>BYE</srai>,sample.aiml
+0,_ BYE *,*,*,<srai>BYE</srai>,sample.aiml
+0,FACTORY,*,*,Development Center!,sample.aiml
+0,INDUSTRY,*,*,<srai>FACTORY</srai>,sample.aiml
+0,SCHOOL,*,*,School is an important institution in a child's life.,sample.aiml
+0,_ SCHOOL,*,*,<srai>SCHOOL</srai>,sample.aiml
+0,SCHOOL *,*,*,<srai>SCHOOL</srai>,sample.aiml
+0,_ SCHOOL *,*,*,<srai>SCHOOL</srai>,sample.aiml
+0,WHAT ABOUT MOVIES,*,*,Do you like comedy movies,sample.aiml
+0,YES,DO YOU LIKE COMEDY MOVIES,*,Nice#Comma I like comedy movies too.,sample.aiml
+0,NO,DO YOU LIKE COMEDY MOVIES,*,Ok! But I like comedy movies.,sample.aiml
+0,LET`S DISCUSS MOVIES,*,*,Yes <set name="topic">movies</set>,sample.aiml
+0,*,*,MOVIES,Watching good movie refreshes our minds.,sample.aiml
+0,I LIKE WATCHING COMEDY!,*,MOVIES,I like comedy movies too.,sample.aiml
+0,MY NAME IS *,*,*,Hello!<think><set name="username"> <star/></set></think>,sample.aiml
+0,BYEEE,*,*,Hi <get name="username"/> Thanks for the conversation!,sample.aiml
+0,HOW ARE YOU FEELING TODAY,*,*,<think><set name="state"> happy</set></think>#Newline         <condition name="state" value="happy">#Newline            I am happy!#Newline         </condition>#Newline         <think><set name="state"> sad</set></think>#Newline         <condition name="state" value="sad">#Newline            I am sad!#Newline         </condition>,sample.aiml

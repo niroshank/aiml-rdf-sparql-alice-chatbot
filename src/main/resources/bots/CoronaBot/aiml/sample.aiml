@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<!--  -->
+<category><pattern>HELLO</pattern>
+<template>
+		<random>
+            <li> Hello! </li>
+            <li> Hi! Nice to meet you! </li>
+			 <li>Hello User </li>
+			 <li>Hi My Friend</li>
+         </random>
+</template>
+</category>
+
+	<category>
+      <pattern>corona</pattern>
+      <template>
+	  <random>
+			 <li>hi, <get name = "username" />, Corona visru is a large family of viruses that cause illness in humans and animals</li> 
+             <li>
+		According to the World Health Organization (WHO),
+		coronaviruses are a family of viruses that cause illnesses ranging from the common cold to more severe diseases
+		such as severe acute respiratory syndrome (SARS),the Middle East respiratory syndrome (MERS) and Corona Virus 2019(COVID 19)
+			 </li>
+			 <li>
+		Coronaviruses are a family of viruses that range from the common cold to MERS coronavirus, which is
+		Middle East Respiratory Syndrome coronavirus and SARs, Severe acute respiratory syndrome
+		coronavirus 
+			 </li> 
+			   </random>
+      </template>  
+	</category>
+	
+      <category>
+      <pattern>* corona *</pattern>
+      <template><srai>corona</srai></template>  
+     </category>
+	 
+	  <category>
+      <pattern>* corona</pattern>
+      <template><srai>corona</srai></template>  
+     </category>
+	 
+	  <category>
+      <pattern>* what * corona *</pattern>
+      <template><srai>corona</srai></template>  
+     </category>
+	 
+	 <!-- Coid 19 explanation - Start -->
+	 <category>
+      <pattern>covid</pattern>
+      <template>Coronavirus Disease 2019,whatIs</template>  
+     </category>
+	 
+	  <category>
+      <pattern>* covid *</pattern>
+      <template><srai>covid</srai></template>  
+     </category>
+	 
+	 <category>
+      <pattern>* covid</pattern>
+      <template><srai>covid</srai></template>  
+     </category>
+	 
+	  <category>
+      <pattern>what * covid *</pattern>
+      <template><srai>covid</srai></template>  
+     </category>
+	 
+	 
+	<!-- Coid 19 explanation - End -->
+	
+	<!-- SARS explanation - Start -->
+	 <category>
+      <pattern>sars</pattern>
+      <template>Severe Acute Respiratory Syndrome,whatIs</template>  
+     </category>
+	 
+	  <category>
+      <pattern>* sars *</pattern>
+      <template><srai>sars</srai></template>  
+     </category>
+	 
+	 <category>
+      <pattern>* sars</pattern>
+      <template><srai>sars</srai></template>  
+     </category>
+	 
+	  <category>
+      <pattern>what * sars *</pattern>
+      <template><srai>sars</srai></template>  
+     </category>
+	<!-- SARS explanation - End -->
+	
+	<!-- MERS explanation - Start -->
+	 <category>
+      <pattern>mers</pattern>
+      <template>Middle East Respiratory Syndrome,whatIs</template>  
+     </category>
+	 
+	  <category>
+      <pattern>* mers *</pattern>
+      <template><srai>mers</srai></template>  
+     </category>
+	 
+	 <category>
+      <pattern>* mers</pattern>
+      <template><srai>mers</srai></template>  
+     </category>
+	 
+	  <category>
+      <pattern>what * mers *</pattern>
+      <template><srai>mers</srai></template>  
+     </category>
+	<!-- MERS explanation - End -->
+ 
+ 	<!-- SARS explanation - Start -->
+	 <category>
+      <pattern>sars</pattern>
+      <template>Severe Acute Respiratory Syndrome,whatIs</template>  
+     </category>
+	 
+	  <category>
+      <pattern>* sars *</pattern>
+      <template><srai>sars</srai></template>  
+     </category>
+	 
+	 <category>
+      <pattern>* sars</pattern>
+      <template><srai>sars</srai></template>  
+     </category>
+	 
+	  <category>
+      <pattern>what * sars *</pattern>
+      <template><srai>sars</srai></template>  
+     </category>
+	<!-- SARS explanation - End -->
+	
+	
+	<!-- symptoms - Start -->
+	 <category>
+      <pattern>symptoms</pattern>
+      <template>shows,symptoms,whatAre</template>  
+     </category>
+	 <category>
+      <pattern> * symptoms *</pattern>
+      <template>shows,symptoms,whatAre,<star index = "1"/>,<star index = "2"/></template>  
+     </category>
+	  <category>
+      <pattern> * symptoms</pattern>
+      <template>shows,symptoms,whatAre,<star index = "1"/></template>  
+     </category>
+	  <category>
+      <pattern> symptoms *</pattern>
+      <template>shows,symptoms,whatAre,<star index = "1"/></template>  
+     </category>
+	<!-- symptoms - End -->
+	
+	<!-- preventions - Start -->
+	 <category>
+      <pattern>prevent</pattern>
+      <template>canBePrevented,preventions,whatAre</template>  
+     </category>
+	  <category>
+      <pattern>prevention</pattern>
+      <template>canBePrevented,preventions,whatAre</template>  
+     </category>
+	 <category>
+      <pattern> * prevent *</pattern>
+      <template>canBePrevented,preventions,whatAre,<star index = "1"/>,<star index = "2"/></template>  
+     </category>
+	  <category>
+      <pattern> * prevention *</pattern>
+      <template>canBePrevented,preventions,whatAre,<star index = "1"/>,<star index = "2"/></template>  
+     </category>
+	  <category>
+      <pattern> * prevent</pattern>
+      <template>canBePrevented,preventions,whatAre,<star index = "1"/></template>  
+     </category>
+	  <category>
+      <pattern> prevent *</pattern>
+      <template>canBePrevented,preventions,whatAre,<star index = "1"/></template>  
+     </category>
+	<!-- symptoms - End -->
+	
+	<!-- transmission - Start -->
+	 <category>
+      <pattern>transmission</pattern>
+      <template>canBeTransmitted,transmission,whatAre</template>  
+     </category>
+	  <category>
+      <pattern>spread</pattern>
+      <template>canBeTransmitted,transmission,whatAre</template>  
+     </category>
+	 <category>
+      <pattern> * transmission *</pattern>
+      <template>canBeTransmitted,transmission,whatAre,<star index = "1"/>,<star index = "2"/></template>  
+     </category>
+	   <category>
+      <pattern> * spread *</pattern>
+      <template>canBeTransmitted,transmission,whatAre,<star index = "1"/>,<star index = "2"/></template>  
+     </category>
+	  <category>
+      <pattern> * transmission</pattern>
+      <template>canBeTransmitted,transmission,whatAre,<star index = "1"/></template>  
+     </category>
+	  <category>
+      <pattern> transmission *</pattern>
+      <template>canBeTransmitted,transmission,whatAre,<star index = "1"/></template>  
+     </category>
+	   <category>
+      <pattern> spread *</pattern>
+      <template>canBeTransmitted,transmission,whatAre,<star index = "1"/></template>  
+     </category>
+	<!-- transmission - End -->
+	
+	<!-- organizations - Start -->
+	 <category>
+      <pattern>organizations</pattern>
+      <template>observedBy,organization,whatAre</template>  
+     </category>
+	  <category>
+      <pattern>organization</pattern>
+      <template>observedBy,organization,whatAre</template>  
+     </category>
+	 <category>
+      <pattern> * organizations *</pattern>
+      <template>observedBy,organization,whatAre,<star index = "1"/>,<star index = "2"/></template>  
+     </category>
+	  <category>
+      <pattern> * organizations</pattern>
+      <template>observedBy,organization,whatAre,<star index = "1"/></template>  
+     </category>
+	  <category>
+      <pattern> organizations *</pattern>
+      <template>observedBy,organization,whatAre,<star index = "1"/></template>  
+     </category>
+	<!-- organizations - End -->
+	
+		<!-- treatments - Start -->
+	 <category>
+      <pattern>treatments</pattern>
+      <template>canBeTreated,treatment,whatAre</template>  
+     </category>
+	 <category>
+      <pattern> * treatments *</pattern>
+      <template>canBeTreated,treatment,whatAre,<star index = "1"/>,<star index = "2"/></template>  
+     </category>
+	  <category>
+      <pattern> * treatments</pattern>
+      <template>canBeTreated,treatment,whatAre,<star index = "1"/></template>  
+     </category>
+	  <category>
+      <pattern> treatments *</pattern>
+      <template>canBeTreated,treatment,whatAre,<star index = "1"/></template>  
+     </category>
+	<!-- treatments - End -->
+	
+	<!-- Test methods - Start -->
+	 <category>
+      <pattern>test</pattern>
+      <template>diagnosedBy,testMethod,whatAre</template>  
+     </category>
+	  <category>
+      <pattern>testing</pattern>
+      <template>diagnosedBy,testMethod,whatAre</template>  
+     </category>
+	 <category>
+      <pattern> * test *</pattern>
+      <template>diagnosedBy,testMethod,whatAre,<star index = "1"/>,<star index = "2"/></template>  
+     </category>
+	   <category>
+      <pattern> * testing *</pattern>
+      <template>diagnosedBy,testMethod,whatAre,<star index = "1"/>,<star index = "2"/></template>  
+     </category>
+	  <category>
+      <pattern> * test</pattern>
+      <template>diagnosedBy,testMethod,whatAre,<star index = "1"/></template>  
+     </category>
+	  <category>
+      <pattern> test *</pattern>
+      <template>diagnosedBy,testMethod,whatAre,<star index = "1"/></template>  
+     </category>
+	   <category>
+      <pattern> testing *</pattern>
+      <template>diagnosedBy,testMethod,whatAre,<star index = "1"/></template>  
+     </category>
+	<!-- Test methods - End -->
+	
+	<category>
+      <pattern>I am *</pattern>
+      <template>
+         Hello!, <set name = "username"> <star/> </set>
+      </template>  
+   </category>
+   
+   	<category>
+      <pattern>Im *</pattern>
+      <template>
+         Hello!, <set name = "username"> <star/> </set>
+      </template>  
+   </category>
+   
+    <category>
+      <pattern>I'm *</pattern>
+      <template>
+         Hello!, <set name = "username"> <star/> </set>
+      </template>  
+   </category>
+   
+   
+  	<category>
+      <pattern>who are you</pattern>
+      <template>
+       <random>
+           <li>hi, <get name = "username" /> im a chat bot developed for the poeple awareness of new corona virus</li> 
+            <li> hello there, im a chatbot developed for public assistance regarding covid 19 </li>
+			 <li>hmm, im a self assistance service developed to aid public with corona virus </li> 
+			 <li>me? great, i am an ai developed to assist people with the latest corona pandemic</li> 
+       </random>
+      </template>  
+   </category>
+   
+	
+
+<category><pattern>HELLO *</pattern>
+<template><srai>HELLO</srai></template>
+</category>
+
+<category><pattern>_ HELLO</pattern>
+<template><srai>HELLO</srai></template>
+</category>
+
+<category><pattern>_ HELLO *</pattern>
+<template><srai>HELLO</srai></template>
+</category>
+
+
+<category><pattern>TELL ME ABOUT *</pattern>
+<template>Here is some info about <star/>
+	<button>
+		<text>Click here </text>
+		<url>en,wikipedia.org/wiki<star/></url>
+	</button></template>
+</category>
+
+<category><pattern>I LIKE *</pattern>
+<template>I too like <star/>.</template>
+</category>
+
+<category><pattern>* IS A *</pattern>
+<template>How <star index="1"/> can not be a <star index="2"/>?</template>
+</category>
+
+<category>
+      <pattern>Good Night</pattern>
+      <template>
+         Hi <get name = "username"/> Thanks for the conversation!
+      </template>  
+   </category>  
+
+<category><pattern>BYE</pattern>
+<template>
+		Good Bye! <get name = "username"/> 
+</template>
+</category>
+
+<category><pattern>BYE *</pattern>
+<template><srai>BYE</srai></template>
+</category>
+
+<category><pattern>_ BYE *</pattern>
+<template><srai>BYE</srai></template>
+</category>
+
+<category><pattern>FACTORY</pattern>
+<template>Development Center!</template>
+</category>
+
+<category><pattern>INDUSTRY</pattern>
+<template><srai>FACTORY</srai></template>
+</category>
+
+<category><pattern>SCHOOL</pattern>
+<template>School is an important institution in a child's life.</template>
+</category>
+
+<category><pattern>_ SCHOOL</pattern>
+<template><srai>SCHOOL</srai></template>
+</category>
+
+<category><pattern>SCHOOL *</pattern>
+<template><srai>SCHOOL</srai></template>
+</category>
+
+<category><pattern>_ SCHOOL *</pattern>
+<template><srai>SCHOOL</srai></template>
+</category>
+
+<category>
+      <pattern>WHAT ABOUT MOVIES</pattern>
+      <template>Do you like comedy movies</template>  
+   </category>
+   
+   <category>
+      <pattern>YES</pattern>
+      <that>Do you like comedy movies</that>
+      <template>Nice, I like comedy movies too.</template>
+   </category>
+   
+   <category>
+      <pattern>NO</pattern>
+      <that>Do you like comedy movies</that>
+      <template>Ok! But I like comedy movies.</template>
+   </category>
+   
+   
+   
+   <category>
+      <pattern>LET`S DISCUSS MOVIES</pattern>
+      <template>Yes <set name = "topic">movies</set></template>  
+   </category>
+   
+   <topic name = "movies">
+      <category>
+         <pattern> * </pattern>
+         <template>Watching good movie refreshes our minds.</template>
+      </category>
+      
+      <category>
+         <pattern> I LIKE WATCHING COMEDY! </pattern>
+		 <template>I like comedy movies too.</template>
+      </category>
+      
+   </topic>
+   
+   
+    <category>
+      <pattern>My name is *</pattern>
+      <template>
+         Hello!<think><set name = "username"> <star/></set></think>
+      </template>  
+   </category>  
+   
+   <category>
+      <pattern>Byeee</pattern>
+      <template>
+         Hi <get name = "username"/> Thanks for the conversation!
+      </template>  
+   </category>  
+   
+   <category>
+       <pattern> HOW ARE YOU FEELING TODAY </pattern>
+      
+      <template>
+         <think><set name = "state"> happy</set></think>
+         <condition name = "state" value = "happy">
+            I am happy!
+         </condition>
+         <think><set name = "state"> sad</set></think>
+         <condition name = "state" value = "sad">
+            I am sad!
+         </condition>
+      </template>
+      
+   </category>
+   
+</aiml>
